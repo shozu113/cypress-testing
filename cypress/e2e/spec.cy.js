@@ -55,7 +55,7 @@ describe("Test Login Functionality", () => {
     cy.contains("Required").should("not.exist");
   });
 
-  it("Create and Employee Claim Record", () => {
+  it("Create an Employee Claim Record", () => {
     //Login page
     cy.visit("https://opensource-demo.orangehrmlive.com/");
     cy.get(
